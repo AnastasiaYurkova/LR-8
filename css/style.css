@@ -1,0 +1,443 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+	*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	:focus,:active{outline: none;}
+	a:focus,a:active{outline: none;}
+	nav,footer,header,aside{display: block;}
+	html,body{
+	
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	}
+	input,button,textarea{font-family:inherit;}
+	input::-ms-clear{display: none;}
+	button{cursor: pointer;}
+	button::-moz-focus-inner {padding:0;border:0;}
+	a, a:visited{text-decoration: none;}
+	a:hover{text-decoration: none;}
+	ul li{list-style:none;} 
+	img{vertical-align: top;}
+	body{
+	font-family: 'PT Sans', sans-serif;
+	height: 100%;
+	}	
+/* contentmain  */
+.contentmain{
+	width: 100%;
+	height: 92.8%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Permanent Marker', cursive;
+	}
+	.content1{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	}
+  .photo{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url('https://getwallpapers.com/wallpaper/full/6/5/8/457739.jpg');
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	background-position: bottom;
+	z-index: 5;
+	box-shadow: inset 0px 0px 70px 30px #000000;
+	}
+	.content2{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height:80%;
+		background-color: rgb(226, 226, 226);
+		background-image:url(../img/backgroundnew.png);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+	}
+	.title{
+		display: flex;
+		justify-content: center;
+		font-size: 40px;
+	}
+	.content2_title{
+		display: flex;
+		width: 50%;
+		height: 90%;
+		position: relative;
+		left: 25%;
+	}
+	.content2_text{
+		display: flex;
+		text-align: center;
+		margin-bottom: 30px ;
+		margin-top: -40px;
+		font-size: 25px;	
+	}	
+/* //слайдер// */
+
+img {
+	width: 100%;
+  }
+  
+  .sim-slider {
+	max-width: 100%;
+	min-width: 320px;
+	margin: 20px auto;
+  }
+  
+  /* General styles */
+  .sim-slider {
+	position: relative;
+  }
+  
+  .sim-slider-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+  }
+  
+  .sim-slider-element {
+	width: 100%;
+	transition: opacity 1s ease-in;
+	opacity: 0;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	display: block;
+  }
+  
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+	width: 22px;
+	height: 40px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.6;
+	z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+	left: 70px;
+	top: 40%;
+	display: block;
+	background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+	right: 70px;
+	top: 40%;
+	display: block;
+	background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+	opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+	opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: -2.5%;
+	z-index: 3;
+	text-align: center;
+  }
+  
+  span.sim-dot {
+	width: 13px;
+	height: 13px;
+	margin: 5px 7px;
+	padding: 0;
+	display: inline-block;
+	background-color: #BBB;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+
+
+
+.content3{
+	background-image:url(../img/backgroundnew.png);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+
+  /* training_content */
+.training_content {
+	position: relative; 
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	}
+	/* training_content_top */
+	.training_content_top {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	}
+	.step {
+	width: 50%;
+	height: 100%;
+	}
+	.step_border { 
+	background-image: url(../img/фон.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%;  
+	width: 55%;
+	height: 92%;
+	position: relative;
+	float: right;
+	right: 17%;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	}
+	.step_border:hover{
+	width: 60%;
+	height: 96%;
+	transform: translate3d(10px, -10px, 0);	
+	transition: 0.2s;
+	}
+	
+	.step_border:not(:hover){
+	transition: 0.2s;
+	}
+	.title {
+	padding-top: 5%;
+	font-size: 42px;
+	width: 100%;
+	height: 13%;
+	text-align: center;
+	}
+	.photo1 {
+	background-image: url(../img/степ.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 60% 90%;
+	width: 100%;
+	height: 90%;
+	margin-top: 7%;
+	}
+
+	.joga {
+	width: 50%;
+	height: 100%;
+	}
+	.joga_border { 
+	background-image: url(../img/фон.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%;  
+	width: 55%;
+	height: 92%;
+	position: relative;
+	float: right;
+	right: 23%;
+	display: flex;
+	flex-direction: column;
+	color: #000; 
+	}
+	.joga_border:hover{
+	width: 60%;
+	height: 96%;
+	transform: translate3d(10px, -10px, 0);	
+	transition: 0.2s;
+	}
+	.joga_border:not(:hover){
+	transition: 0.2s;
+	}
+	
+	.photo2{ 
+	background-image: url(../img/йога.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 60% 90%;
+	width: 100%;
+	height: 80%;
+	margin-top: 5%;
+	}
+	
+	
+	
+	/* training_content_botton */
+	.training_content_botton { 
+	display: flex;
+	width: 100%;
+	height: 50%; 
+	margin-bottom: 3%;
+	
+	}
+	.sila { 
+	width: 100%;
+	height: 100%;
+	
+	}
+	.sila_border { 
+	background-image: url(../img/фон.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 100% 100%;  
+	width: 28%;
+	height: 94%;
+	position: relative;
+	float: right;
+	right: 35%;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	}
+	.sila_border:hover{
+	width: 30%;
+	height: 97%;
+	transform: translate3d(10px, -10px, 0);	
+	transition: 0.2s;
+	}
+	.sila_border:not(:hover){
+	transition: 0.2s;
+	}
+	
+	.photo3 { 
+	background-image: url(../img/сил.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat; 
+	background-size: 55% 100%;
+	width: 100%;
+	height: 100%;
+	margin-top: 15%;
+	margin-bottom: 2%;
+	}
+	
+	
+
+
+
+
+
+
+	/* bottom  */
+	footer{
+	display: flex;
+	height: 10%;
+	background-color: rgb(0, 0, 0);
+	}
+	.bottom_text{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	height: 10%;
+	width: 100%;
+	margin: 20px 0;
+	font-size: 24px;
+	}
+	
+@media  (min-width: 1900px)  {
+	.content2_text{
+		font-size: 40px;
+		}
+	.left_text{
+		width: 140%;
+	}
+	.text{
+	font-size: 42px;
+	}
+	
+	.headerlink{
+	font-size: 33px;
+	}
+	.dropbtn{
+	font-size: 33px;
+	}
+	.training_content { 
+	height: 1500px;
+	}   
+	.verticaltext{
+	right: -9%;
+	top: 50%;
+	}
+	.verticaltext2{
+	left: -9%;
+	top: 50%;
+	}
+	.text_vertical{
+	font-size: 90px;
+	}
+	.text_vertical2{
+	font-size: 90px;
+	}
+	.glavnaya_right{
+		width: 90%;
+	}
+	.step_border {  
+	width: 63%;
+	height: 98%;
+	right: 13%;
+	}
+	.step_border:hover {  
+	width: 65%;
+	height: 100%;
+	}     
+	.joga_border {  
+	width: 63%;
+	height: 98%;
+	
+	}
+	.joga_border:hover {  
+	width: 65%;
+	height: 100%;
+	}   
+	.sila_border { 
+	width: 33%;
+	height: 99%;
+	right: 33%;
+	}
+	
+	.sila_border:hover {  
+	width: 34%;
+	height: 101%;
+	}  
+	
+	.title{
+	font-size: 64px;
+	}
+	.pleylist{
+		font-size: 38px;
+	}
+	}
